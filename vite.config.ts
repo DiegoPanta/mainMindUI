@@ -3,8 +3,5 @@ import vue from '@vitejs/plugin-vue'
 
 export default defineConfig({
   plugins: [vue()],
-  base: '/mainMindUI/',
-  css: {
-    devSourcemap: false,
-  },
+  base: '/mainMindUI/', // O nome do repositório do GitHub
 })
